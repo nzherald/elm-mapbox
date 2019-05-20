@@ -2,7 +2,7 @@ module Mapbox.Layer exposing
     ( Layer, SourceId, encode
     , background, fill, symbol, line, raster, circle, fillExtrusion, heatmap, hillshade
     , Background, Fill, Symbol, Line, Raster, Circle, FillExtrusion, Heatmap, Hillshade
-    , LayerAttr
+    , LayerAttr(..)
     , metadata, sourceLayer, minzoom, maxzoom, filter, visible
     , fillAntialias, fillColor, fillOpacity, fillOutlineColor, fillPattern, fillTranslate, fillTranslateAnchor
     , lineBlur, lineCap, lineColor, lineDasharray, lineGapWidth, lineGradient, lineJoin, lineMiterLimit, lineOffset, lineOpacity, linePattern, lineRoundLimit, lineTranslate, lineTranslateAnchor, lineWidth
