@@ -244,6 +244,7 @@ export function registerCustomElement(settings) {
           mapOptions.pitch = this._pitch;
         }
         this._map = new mapboxgl.Map(mapOptions);
+        this._map.addControl(new mapboxgl.NavigationControl());
 
         Object.entries(this._eventRegistrationQueue).forEach(
           ([type, listeners]) => {
